@@ -19,3 +19,7 @@ Press Ctrl-F to find anything in noteplus
 
 Replace function is not working
 
+Github account:Jay2901-tech
+
+Instagram account:_j.a.y_29
+
