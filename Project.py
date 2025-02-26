@@ -15,11 +15,11 @@ main_application.title('Vpad text editor')
 main_menu=tk.Menu(main_application)
 file_menu=tk.Menu(main_menu,tearoff=False)
 #file icons
-new_icon=tk.PhotoImage(file='new1.png')
-open_icon=tk.PhotoImage(file='open1.png')
-save_icon=tk.PhotoImage(file='save1.png')
-Saveas_icon=tk.PhotoImage(file='Save_as1.png')
-Exit_icon=tk.PhotoImage(file='Exit1.png')
+new_icon=tk.PhotoImage(file='Sem3_Python_Project/new1.png')
+open_icon=tk.PhotoImage(file='Sem3_Python_Project/open1.png')
+save_icon=tk.PhotoImage(file='Sem3_Python_Project/save1.png')
+Saveas_icon=tk.PhotoImage(file='Sem3_Python_Project/Save_as1.png')
+Exit_icon=tk.PhotoImage(file='Sem3_Python_Project/Exit1.png')
 # file menus
 
 # main menu functioanlity
@@ -114,11 +114,11 @@ file_menu.add_command(label='Exit',image=Exit_icon,compound=tk.LEFT,accelerator=
 # edit icons
 edit_menu=tk.Menu(main_menu,tearoff=False)
 
-copy_icon=tk.PhotoImage(file='Copy1.png')
-paste_icon=tk.PhotoImage(file='Paste1.png')
-cut_icon=tk.PhotoImage(file='Cut1.png')
-clear_icon=tk.PhotoImage(file='Clear1.png')
-find_icon=tk.PhotoImage(file='Find1.png')
+copy_icon=tk.PhotoImage(file='Sem3_Python_Project/Copy1.png')
+paste_icon=tk.PhotoImage(file='Sem3_Python_Project/Paste1.png')
+cut_icon=tk.PhotoImage(file='Sem3_Python_Project/Cut1.png')
+clear_icon=tk.PhotoImage(file='Sem3_Python_Project/Clear1.png')
+find_icon=tk.PhotoImage(file='Sem3_Python_Project/Find1.png')
 
 # Find Functionality
 
@@ -198,10 +198,10 @@ themeVar=tk.StringVar()
 def change_color(a):
     text_editor.config(background=a)
 color_menu=tk.Menu(main_menu,tearoff=False)
-color1=tk.PhotoImage(file='White1.png')
-color2=tk.PhotoImage(file='Red1.png')
-color3=tk.PhotoImage(file='Yellow1.png')
-color4=tk.PhotoImage(file='Black1.png')
+color1=tk.PhotoImage(file='Sem3_Python_Project/White1.png')
+color2=tk.PhotoImage(file='Sem3_Python_Project/Red1.png')
+color3=tk.PhotoImage(file='Sem3_Python_Project/Yellow1.png')
+color4=tk.PhotoImage(file='Sem3_Python_Project/Black1.png')
 
 color_menu.add_radiobutton(label="Black",image=color4,compound=tk.LEFT,variable=themeVar,command=lambda:change_color('black'))
 color_menu.add_radiobutton(label="White",image=color1,compound=tk.LEFT,variable=themeVar,command=lambda:change_color('white'))
@@ -235,9 +235,9 @@ font_size.grid(row=0,column=1,padx=5)
 font_size.current(4)
 
 #Bold,Italic,Underline icons
-bold_icon=tk.PhotoImage(file='Bold1.png')
-italic_icon=tk.PhotoImage(file='Italic1.png')
-underline_icon=tk.PhotoImage(file='Underline1.png')
+bold_icon=tk.PhotoImage(file='Sem3_Python_Project/Bold1.png')
+italic_icon=tk.PhotoImage(file='Sem3_Python_Project/Italic1.png')
+underline_icon=tk.PhotoImage(file='Sem3_Python_Project/Underline1.png')
 
 
 bold_btn=ttk.Button(tool_bar,image=bold_icon)
@@ -250,21 +250,21 @@ underline_btn=ttk.Button(tool_bar,image=underline_icon)
 underline_btn.grid(row=0,column=4,padx=5)
 
 # font_color button
-fontcolor_icon=tk.PhotoImage(file='Color1.png')
+fontcolor_icon=tk.PhotoImage(file='Sem3_Python_Project/Color1.png')
 fontcolcor_btn=ttk.Button(tool_bar,image=fontcolor_icon)
 fontcolcor_btn.grid(row=0,column=5,padx=5)
 
 # align icons
-align1=tk.PhotoImage(file='alignleft1.png')
+align1=tk.PhotoImage(file='Sem3_Python_Project/alignleft1.png')
 align1_btn=ttk.Button(tool_bar,image=align1)
 align1_btn.grid(row=0,column=6,padx=5)
 
-align2=tk.PhotoImage(file='aligncenter1.png')
+align2=tk.PhotoImage(file='Sem3_Python_Project/aligncenter1.png')
 align2_btn=ttk.Button(tool_bar,image=align2)
 align2_btn.grid(row=0,column=7,padx=5)
 
 
-align3=tk.PhotoImage(file='alignright1.png')
+align3=tk.PhotoImage(file='Sem3_Python_Project/alignright1.png')
 align3_btn=ttk.Button(tool_bar,image=align3)
 align3_btn.grid(row=0,column=8,padx=5)
 # align2=tk.PhotoImage(file='D:/Python/GUI/aligncenter1.png')
